@@ -17,6 +17,9 @@
         },
         {
             "m_Id": "1fe828ed1dc9438297f147f743784628"
+        },
+        {
+            "m_Id": "a89d1d4901c04476b82787f2b257aa3a"
         }
     ],
     "m_Keywords": [],
@@ -322,7 +325,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "7cd88d7638044cbc8bc014edd1b1dc2c"
+                    "m_Id": "8d397374dfcf4756a96ab184168ecec9"
                 },
                 "m_SlotId": 0
             }
@@ -332,11 +335,11 @@
                 "m_Node": {
                     "m_Id": "a0705cb0cd324d0bb15cf25bf2ee7c4f"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 4
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "8d397374dfcf4756a96ab184168ecec9"
+                    "m_Id": "7cd88d7638044cbc8bc014edd1b1dc2c"
                 },
                 "m_SlotId": 0
             }
@@ -431,8 +434,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 462.0000915527344,
-            "y": 222.9999237060547
+            "x": 472.0000305175781,
+            "y": 227.00003051757813
         },
         "m_Blocks": [
             {
@@ -484,6 +487,9 @@
         },
         {
             "m_Id": "1fe828ed1dc9438297f147f743784628"
+        },
+        {
+            "m_Id": "a89d1d4901c04476b82787f2b257aa3a"
         }
     ]
 }
@@ -1702,10 +1708,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 179.00003051757813,
-            "y": -222.99998474121095,
-            "width": 207.99996948242188,
-            "height": 302.0
+            "x": 191.0,
+            "y": -313.00006103515627,
+            "width": 208.00003051757813,
+            "height": 302.00006103515627
         }
     },
     "m_Slots": [
@@ -2034,10 +2040,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -385.9998779296875,
-            "y": -8.000056266784668,
-            "width": 208.00003051757813,
-            "height": 435.0
+            "x": -389.0000915527344,
+            "y": -24.00004005432129,
+            "width": 208.00006103515626,
+            "height": 433.0
         }
     },
     "m_Slots": [
@@ -2164,6 +2170,34 @@
         "y": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "a89d1d4901c04476b82787f2b257aa3a",
+    "m_Guid": {
+        "m_GuidSerialized": "3350e689-e784-40bd-858d-5e531536a905"
+    },
+    "m_Name": "Float",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Float",
+    "m_DefaultReferenceName": "_Float",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
 }
 
 {
@@ -2475,8 +2509,8 @@
         "y": 1.0
     },
     "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0
+        "x": 1.0,
+        "y": 1.0
     },
     "m_Labels": []
 }
@@ -2743,8 +2777,8 @@
         "y": 1.0
     },
     "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0
+        "x": 1.0,
+        "y": 1.0
     },
     "m_Labels": []
 }
@@ -2809,7 +2843,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -3073,12 +3107,15 @@
     "m_AllowMaterialOverride": false,
     "m_SurfaceType": 1,
     "m_ZTestMode": 4,
-    "m_ZWriteControl": 0,
-    "m_AlphaMode": 0,
+    "m_ZWriteControl": 2,
+    "m_AlphaMode": 2,
     "m_RenderFace": 0,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
+    "m_DisableTint": false,
+    "m_AdditionalMotionVectorMode": 0,
+    "m_AlembicMotionVectors": false,
     "m_SupportsLODCrossFade": false,
     "m_CustomEditorGUI": "",
     "m_SupportVFX": false
